@@ -34,3 +34,16 @@ a.pop()
 # print(a)
 
 # b = ['apple', 'banana', 'mango', 20, 10.3]
+
+
+###### tuple
+t1 = (1,)
+# print(t1)
+
+t2 = ("apple", "banana", "mango", 1, 2)
+print(t2)
+
+"""
+# tuple is immutable list
+# uses paranthesis
+"""

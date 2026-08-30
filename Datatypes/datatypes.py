@@ -49,10 +49,19 @@ t2 = ("apple", "banana", "mango", 1, 2)
 """
 
 ######## Boolean Data Types ###################
-print(type(True))
-print(type(False))
+# print(type(True))
+# print(type(False))
 
-if 1:
-    print("1 is truthy")
-if not 0:
-    print("0 is falsy")
+# if 1:
+    # print("1 is truthy")
+# if not 0:
+    # print("0 is falsy")
+
+######## Set Data Types ###################
+s1 = {'a', 'b', 'c', 'd', 'a'}
+print(s1)
+
+"""
+# set store unique values
+# elemets in sets are unordered
+"""

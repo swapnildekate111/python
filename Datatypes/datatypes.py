@@ -41,9 +41,18 @@ t1 = (1,)
 # print(t1)
 
 t2 = ("apple", "banana", "mango", 1, 2)
-print(t2)
+# print(t2)
 
 """
 # tuple is immutable list
 # uses paranthesis
 """
+
+######## Boolean Data Types ###################
+print(type(True))
+print(type(False))
+
+if 1:
+    print("1 is truthy")
+if not 0:
+    print("0 is falsy")

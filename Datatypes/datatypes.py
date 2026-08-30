@@ -59,9 +59,23 @@ t2 = ("apple", "banana", "mango", 1, 2)
 
 ######## Set Data Types ###################
 s1 = {'a', 'b', 'c', 'd', 'a'}
-print(s1)
+# print(s1)
 
 """
 # set store unique values
 # elemets in sets are unordered
+"""
+
+######## Sequence Data Types ###################
+d = {
+    1: "one",
+    2: "two",
+    3: "three"
+}
+
+print(d)
+
+"""
+# Dictionary is a collection of key-value pairs
+# Dictionary keys are case sensitive
 """

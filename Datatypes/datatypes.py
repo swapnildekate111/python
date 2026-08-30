@@ -17,8 +17,20 @@ c = 2 + 4j  # complex number
 ###### String
 
 s = "welcome to the world of wizardry"
-print(s)
-print(type(s))
+# print(s)
+# print(type(s))
 
 # Access string with index
-print(s[-3])
+# print(s[-3])
+
+###### List
+a = [1, 2, 3]
+# print(a)
+
+a.append('apples')
+# print(a)
+
+a.pop()
+# print(a)
+
+# b = ['apple', 'banana', 'mango', 20, 10.3]

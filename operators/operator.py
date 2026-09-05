@@ -25,9 +25,17 @@ b = 4
 a = 13
 b = 33
 
-print(a > b) # 13 is greater than 33 -> False
-print(a < b) # 13 is less than 33 -> True
-print(a == b) # 13 is equal to 33 -> False
-print(a != b) # 13 is not equal to 33 -> True
-print(a >= b) # 13 is greater than or equal to 33 -> False
-print(a <= b) # 13 is less than or equal to 33 -> True
+# print(a > b) # 13 is greater than 33 -> False
+# print(a < b) # 13 is less than 33 -> True
+# print(a == b) # 13 is equal to 33 -> False
+# print(a != b) # 13 is not equal to 33 -> True
+# print(a >= b) # 13 is greater than or equal to 33 -> False
+# print(a <= b) # 13 is less than or equal to 33 -> True
+
+############# Logical Operator #############
+a = True
+b = False
+
+print(a and b) ## False
+print(a or b) # True
+print(not b) # True

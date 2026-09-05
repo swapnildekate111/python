@@ -4,7 +4,7 @@
 # Relational Operator (<, >, <=, >=, !=, ==) [x]
 # Logical Operator (AND, OR, NOT) [x]
 # Bitwise Operator (&, |, ^, ~, <<, >>) [x]
-# Assignment Operator (=, +=, -=, *=, /=)
+# Assignment Operator (=, +=, -=, *=, /=) [x]
 # Ternary Operator (x if condition else y)
 # Identity Operator (is, is not)
 """
@@ -56,16 +56,30 @@ b = 4
 a = 10
 b = a
 
-print(b)
+# print(b)
 
-b += a # b = b + a
-print(b)
+# b += a # b = b + a
+# print(b)
 
-b -= a # b = b - a
-print(b)
+# b -= a # b = b - a
+# print(b)
 
-b *= a # b = b * a
-print(b)
+# b *= a # b = b * a
+# print(b)
 
-b /= a # b = b / a
-print(a)
+# b /= a # b = b / a
+# print(a)
+
+############# Identity Operator #############
+
+"""
+# is     -> True if the operands are identical
+# is not -> True if the operands are not identical
+"""
+
+a = int(10)
+b = 20
+c = int("001010", 2)
+
+print (a is not b)
+print (a is c)

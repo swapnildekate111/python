@@ -3,7 +3,7 @@
 # Arithmetic Operator (+, -, *, /, %) [x]
 # Relational Operator (<, >, <=, >=, !=, ==) [x]
 # Logical Operator (AND, OR, NOT) [x]
-# Bitwise Operator (&, |, ^, ~, <<, >>)
+# Bitwise Operator (&, |, ^, ~, <<, >>) [x]
 # Assignment Operator (=, +=, -=, *=, /=)
 # Ternary Operator (x if condition else y)
 # Identity Operator (is, is not)
@@ -44,9 +44,28 @@ b = False
 a = 10
 b = 4
 
-print(a & b)
-print(a | b)
-print(~a)
-print(a ^ b)
-print(a >> 2)
-print(a << 2)
+# print(a & b)
+# print(a | b)
+# print(~a)
+# print(a ^ b)
+# print(a >> 2)
+# print(a << 2)
+
+
+############# Assignment Operator #############
+a = 10
+b = a
+
+print(b)
+
+b += a # b = b + a
+print(b)
+
+b -= a # b = b - a
+print(b)
+
+b *= a # b = b * a
+print(b)
+
+b /= a # b = b / a
+print(a)

@@ -95,13 +95,21 @@ y = 20
 
 ls = [10, 20, 30, 40, 50]
 
-if x not in ls:
-    print("x is NOT present in given list")
-else:
-    print("x is present in given list")
+# if x not in ls:
+#     print("x is NOT present in given list")
+# else:
+#     print("x is present in given list")
 
-if y not in ls:
-    print("y not in list")
-else:
-    print("y is in list")
+# if y not in ls:
+#     print("y not in list")
+# else:
+#     print("y is in list")
 
+############# Ternary Operator ############
+
+a = int(input("Number a: "))
+b = int(input("Number b: "))
+
+min = a if a < b else b # Ternary operator
+
+print("Mininum:", min)

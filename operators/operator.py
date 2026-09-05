@@ -1,8 +1,8 @@
 ############################### OPERATORS ###############################
 """
 # Arithmetic Operator (+, -, *, /, %) [x]
-# Relational Operator (<, >, <=, >=, !=, ==)
-# Logical Operator (AND, OR, NOT)
+# Relational Operator (<, >, <=, >=, !=, ==) [x]
+# Logical Operator (AND, OR, NOT) [x]
 # Bitwise Operator (&, |, ^, ~, <<, >>)
 # Assignment Operator (=, +=, -=, *=, /=)
 # Ternary Operator (x if condition else y)
@@ -36,6 +36,17 @@ b = 33
 a = True
 b = False
 
-print(a and b) ## False
-print(a or b) # True
-print(not b) # True
+# print(a and b) ## False
+# print(a or b) # True
+# print(not b) # True
+
+############# Bitwise Operator #############
+a = 10
+b = 4
+
+print(a & b)
+print(a | b)
+print(~a)
+print(a ^ b)
+print(a >> 2)
+print(a << 2)

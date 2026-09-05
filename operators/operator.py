@@ -107,9 +107,28 @@ ls = [10, 20, 30, 40, 50]
 
 ############# Ternary Operator ############
 
-a = int(input("Number a: "))
-b = int(input("Number b: "))
+# a = int(input("Number a: "))
+# b = int(input("Number b: "))
 
 min = a if a < b else b # Ternary operator
 
-print("Mininum:", min)
+# print("Mininum:", min)
+
+############# Precedence and Associativity of Operators ############
+# PEMDAS rule
+expr = 10 + 20 * 30
+# print(expr)
+
+name = 'Alex'
+age = 0
+
+if name == "Alex" or name == 'John' and age >= 2:
+    print("Hello!")
+else:
+    print("Goodbye!!!")
+
+############# Operator Associativity ###############
+print(100 / 10 * 10)
+print(5 - 2 + 3)
+print(5 - (2 + 3))
+print(2 ** 3 ** 2)

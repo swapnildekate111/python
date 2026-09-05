@@ -6,7 +6,7 @@
 # Bitwise Operator (&, |, ^, ~, <<, >>) [x]
 # Assignment Operator (=, +=, -=, *=, /=) [x]
 # Ternary Operator (x if condition else y)
-# Identity Operator (is, is not)
+# Identity Operator (is, is not) [X]
 """
 
 ############# Arithmetic Operator #############
@@ -81,5 +81,27 @@ a = int(10)
 b = 20
 c = int("001010", 2)
 
-print (a is not b)
-print (a is c)
+# print (a is not b)
+# print (a is c)
+
+############# Membership Operator ############
+"""
+# in            -> True if value is found in sequence
+# not in        -> True if value is not found in sequence
+"""
+
+x = 24
+y = 20
+
+ls = [10, 20, 30, 40, 50]
+
+if x not in ls:
+    print("x is NOT present in given list")
+else:
+    print("x is present in given list")
+
+if y not in ls:
+    print("y not in list")
+else:
+    print("y is in list")
+
